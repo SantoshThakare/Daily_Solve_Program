@@ -25,7 +25,7 @@ def dechimal_to_Hex(n):
 if __name__ == '__main__':
 
     dechimal_nums = [0, 15, 30, 55, 355, 656, 896, 1125]
-    print("Dechimal numbers:")
+    print("Decimal numbers:")
     print(dechimal_nums)
-    print("\nHexadechimal numbers of the said dechimal numbers:")
+    print("\nHexadecimal numbers of the said dechimal numbers:")
     print([dechimal_to_Hex(x) for x in dechimal_nums])

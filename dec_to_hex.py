@@ -5,7 +5,7 @@ def decimal_to_hex():
     hexa = []
     result = []
 
-    while(temp != 0):
+    while temp != 0:
         rem=temp%16
 
         if rem<10:
@@ -18,7 +18,7 @@ def decimal_to_hex():
         result.append(hexa[len(hexa)-j])
         j = j+1
         print(result)
-#
-# if __name__ == '__main__':
-#
-#     decimal_to_hex()
+
+if __name__ == '__main__':
+
+    decimal_to_hex()

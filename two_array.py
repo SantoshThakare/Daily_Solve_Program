@@ -1,7 +1,7 @@
 def arr():
     sum = []
     for element in arrayOne:
-        sum.append(max([item + element for item in arrayTwo]))
+        sum.append(max([item + element for item in arrayOne]))
     print(max(sum))
 
 

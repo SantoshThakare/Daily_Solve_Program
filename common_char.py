@@ -1,25 +1,13 @@
-def print_res(common):
-    print(common)
-
-
 def common(str1, str2):
-    common = []
+    lis = []
 
     for i in set(str1):
         for j in set(str2):
             if i == j:
-                common.append(i)
+                lis.append(i)
 
-    return common
-
-
-def main():
-    str1 = "hello"
-    str2 = "world"
-
-    common_worlds = common(str1, str2)
-    print_res(common_worlds)
-
+    return lis
 
 if __name__ == "__main__":
-    main()
+    char = common("hello", "world")
+    print(char)
